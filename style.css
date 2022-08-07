@@ -1,0 +1,58 @@
+/* Variables */
+:root {
+    /* Primary color */
+    --color-e-left: hsl(31, 77%, 52%);
+    --color-e-middle: hsl(184, 100%, 22%);
+    --color-e-right: hsl(179, 100%, 13%);
+
+    /* Neutral color */
+    --color-paragraph: hsla(0, 0%, 100%, 0.75);
+    --color-other: hsl(0, 0%, 95%);
+}
+
+/* Code from Frontend Mentor */
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* My custom CSS */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-other);
+}
+
+p {
+    color: var(--color-paragraph);
+}
+
+.element-left, .element-middle, .element-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-left {
+    background-color: var(--color-e-left);
+}
+
+.element-middle {
+    background-color: var(--color-e-middle);
+}
+
+.element-right {
+    background-color: var(--color-e-right);
+}
+

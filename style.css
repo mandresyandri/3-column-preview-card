@@ -32,6 +32,7 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: var(--second-font);
+    background-color: var(--color-other);
 }
 
 .container {
